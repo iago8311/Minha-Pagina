@@ -1,10 +1,39 @@
 .App-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     
 }
-
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    flex-grow:1 ;
+}
+.listaTexto{
+    margin-right: 10px;
+    color: aliceblue;
+}
+.listaTexto:hover {
+    opacity: .4;
+    transform: scale(0.9);
+   }
+.div-logo{
+display: flex;
+}
+.header-rodape{
+    display: flex;
+    
+}
+.header-rodape p {
+    margin-right: 10px;
+}
 .imagemLogo{
     height: 4rem;
+    
 }
 .textoImagem{
     margin-top: 30px;
@@ -12,22 +41,10 @@
     color: aliceblue;
 }
 
-
-
-.opcoes{
-    display: flex;
-
-}
-
-.opcoes li{
-    display: flex;
-    font-size: 15px;   
-    margin-right: 50px;
-    color: aliceblue;
+.imageIdioma{
+    height: 2rem;
+    width: auto;
+    margin: 5px;
     cursor: pointer;
 }
 
-.opcao:hover {
-opacity: .4;
-transform: scale(0.9);
-}
