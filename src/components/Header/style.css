@@ -1,0 +1,33 @@
+.App-header {
+    display: flex;
+    
+}
+
+.imagemLogo{
+    height: 4rem;
+}
+.textoImagem{
+    margin-top: 30px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+
+.opcoes{
+    display: flex;
+
+}
+
+.opcoes li{
+    display: flex;
+    font-size: 15px;   
+    margin-right: 50px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.opcao:hover {
+opacity: .4;
+transform: scale(0.9);
+}
