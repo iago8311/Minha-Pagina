@@ -13,12 +13,18 @@ const ListaTexto = styled.li`
         transform: scale(0.9);
        }
 `
+
+const linkStyle = {
+    textDecoration: 'none', 
+    color: 'blue', 
+  };
+  
 export default function Navegacao(){
     return(
         <nav>
         <ul>
         {textoOpcoes.map((texo)=>(
-            <Link to={`/${texo.toLowerCase()}`}><ListaTexto><p>{texo}</p></ListaTexto></Link>
+            <Link to={`/${texo.toLowerCase()}`} style={linkStyle}><ListaTexto><p>{texo}</p></ListaTexto></Link>
         ))}                
         </ul>
     </nav>
